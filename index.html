@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Anvi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1 class="title">Its ur Sweet 16!!</h1>
+    <h2 class="subtitle">Happy Birthday!!</h2>
+
+
+    <!-- Slideshow -->
+    <div class="slideshow-container">
+        <img src="Images/img1.jpg" class="slide" style="display: block;">
+        <img src="Images/img2.jpg" class="slide">
+        <img src="Images/img3.jpg" class="slide">
+        <img src="Images/img4.jpg" class="slide">
+        <img src="Images/img5.jpg" class="slide">
+        <img src="Images/img6.jpg" class="slide">
+        <img src="Images/img7.jpg" class="slide">
+        <img src="Images/img8.jpg" class="slide">
+        <img src="Images/img9.jpg" class="slide">
+        <img src="Images/img10.jpg" class="slide">
+        <img src="Images/img11.jpg" class="slide">
+        <img src="Images/img12.jpg" class="slide">
+    </div>
+
+    <!-- Button to open letter -->
+    <button id="open-letter-btn" class="letter-button">Open Your Letter 🎁</button>
+
+    <!-- Password Modal -->
+    <div id="password-modal" class="modal">
+        <div class="modal-content password-modal-content">
+            <span id="close-password" class="close">&times;</span>
+            <h3>Guess the password or wait till 3:30 p.m. till the letter unlocks</h3>
+
+            <input type="password" id="password-input" placeholder="Enter password" class="password-input">
+
+            <p class="hint">
+                Two little secrets combined in one: <br>
+                A name you answer to, <br>
+                and the drink that gets you high with fun. <br>
+                Put them together with a dash in between. <br>
+                Guess it now, or wait till school is done!
+            </p>
+
+            <button id="submit-password" class="submit-btn">Submit</button>
+            <p id="password-error" class="password-error">Wrong password! Try again.</p>
+
+            <p id="countdown" class="countdown"></p>
+        </div>
+    </div>
+
+    <!-- Real Letter Modal -->
+    <div id="letter-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-letter" class="close">&times;</span>
+            <h2>To Ivi,</h2>
+            <p>
+                Happy Birthday!! It's your sweet 16 and I don’t care if you want to hide — I’m celebrating it anyway 😌<br><br>
+
+                You’ve grown up so much and I can’t believe the little kid who used to annoy me is now practically my soul sister. You’re 16 by your birth certificate, but emotionally you’re my same age (sometimes older 🫢).<br><br>
+
+                You’ve been the one person I can talk to about absolutely anything. My secrets, my overthinking, my drama, everything. And no matter how much I tease you or pretend I don’t care, I actually care more than anyone.<br><br>
+
+                Now, I know this year hasn’t been easy. You’ve gone through more in a few months than most people handle in years. And still, you sit with me, laugh with me, listen to my nonsense, and act crazy after one bottle of Fresca apple juice.<br><br>
+
+                So I wanted to give you something that isn’t just some store bought gift, but something that actually feels like <em>us</em>. You’re always making handmade cards and thoughtful things, so for once I tried doing it my way — by coding.<br><br>
+
+                You thought I was editing photos for a video. Well, surprise, I made a whole website for you. Because it’s your sweet 16 and I want you to feel special, loved, and a tiny bit attacked (with this surprise).<br><br>
+
+                You deserve the happiest 16th. You deserve a year filled with love, peace and frescas (minus trauma). I’m honestly proud of you and so lucky to have you.<br><br>
+
+                Love you loads.<br><br>
+
+                -your forever constant<br>
+                Bullu ❤️ <br><br><br> 
+            </p>
+
+        </div>
+    </div>
+
+    <!-- Music Player -->
+    <audio id="bg-music" src="https://www.bensound.com/bensound-music/bensound-sunny.mp3" preload="auto" autoplay loop></audio>
+    <button id="music-toggle" title="Toggle Music">🔊</button>
+
+<script src="script.js"></script>
+</body>
+</html>
